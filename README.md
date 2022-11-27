@@ -1,6 +1,6 @@
 # Solar System Project
 
-<img src="solar-system.png">
+<img src="/src/solar-system.png">
 
 > O projeto consiste no desenvolvimento de um modelo do Sistema Solar através dos conceitos básicos de componetização em React JS.
 
