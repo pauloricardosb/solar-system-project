@@ -1,0 +1,16 @@
+:root {
+  --footer-background-color: #000;
+  --footer-text-color: #fff;
+}
+#footer {
+  bottom: 0;
+  height: 2rem;
+  background-color: var(--footer-background-color);
+  color: var(--footer-text-color);
+  padding-top: 10px;
+}
+
+#link {
+  text-decoration: none;
+  color: var(--footer-text-color);
+}
