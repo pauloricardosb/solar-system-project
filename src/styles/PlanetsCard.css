@@ -1,0 +1,33 @@
+#planets-card {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3rem 3.9rem;
+  width: 90%;
+}
+
+#planets {
+  border: 2px solid transparent;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  margin: 1rem;
+  padding: 1rem;
+  transition: all 400ms ease;
+  width: 20rem;
+}
+
+#planets:hover {
+  border: 2px;
+  border-radius: 20rem;
+  border-style: dashed;
+  border-bottom-color: blueviolet;
+  border-left-color: rgb(80, 245, 163);
+  border-right-color: rgb(255, 57, 225);
+  border-top-color: rgb(63, 204, 255);
+  filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg);
+    transform: rotateZ(-360deg);
+}
