@@ -1,0 +1,12 @@
+:root {
+  --primary-color: rgb(32, 32, 32);
+  --secondary-color: rgb(246, 246, 246);
+}
+
+#header {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+}
