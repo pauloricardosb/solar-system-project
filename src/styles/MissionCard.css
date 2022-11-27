@@ -1,0 +1,38 @@
+:root {
+    --mission-card-background-color: #fff;
+    --mission-border-color: 1px solid #000000;
+    --mission-card-border-color: 2px solid #000000;
+    --mission-card-margin-left: 2px;
+}
+
+#missions {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: var(--mission-card-margin-left);
+    padding: 3rem 3.9rem;
+    width: 90%;
+}
+
+#main-mission-section {
+    background-color: var(--mission-card-background-color);
+    padding: 3rem 3.9rem;
+}
+
+#mission-card {
+    border: var(--mission-card-border-color);
+    border-radius: 0.5rem;
+    box-shadow: var(--mission-card-box-shadow);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    transition: all 400ms ease;
+    width: 20rem;
+}
+#mission-card:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-5px) scale(1.2) translateZ(0);
+  }
