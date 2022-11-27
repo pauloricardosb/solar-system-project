@@ -1,12 +1,31 @@
+
 :root {
   --primary-color: rgb(32, 32, 32);
   --secondary-color: rgb(246, 246, 246);
 }
 
 #header {
-  background-color: var(--primary-color);
-  border-radius: 10px;
+  background-image: url(../images/background.png);
   color: var(--secondary-color);
-  padding: 20px;
+  padding: 3rem;
   text-align: center;
+}
+
+#header h1 {
+    --s: 0.1em;   /* the thickness of the line */
+    --c: #a27dff; /* the color */
+    
+    color: rgb(255, 255, 255);
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+}
+
+#header h1:hover {
+  --_p: 100%;
+  color: transparent;
 }
